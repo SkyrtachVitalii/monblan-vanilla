@@ -34,10 +34,10 @@
   }
 
   &__icon {
-    @include icon-mask("../../assets/icons/heart.svg");
+    @include icon-mask("#{$assets-path}icons/heart.svg");
 
     &--comment {
-      @include icon-mask("../../assets/icons/comment.svg");
+      @include icon-mask("#{$assets-path}icons/comment.svg");
     }
   }
 

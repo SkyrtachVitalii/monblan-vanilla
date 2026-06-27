@@ -48,6 +48,6 @@
 @mixin view-icon-list($color) {
   background-image: none;
   background-color: $color;
-  mask: url("../../assets/icons/list.svg") center / 22px 22px no-repeat;
-  -webkit-mask: url("../../assets/icons/list.svg") center / 22px 22px no-repeat;
+  mask: url("#{$assets-path}icons/list.svg") center / 22px 22px no-repeat;
+  -webkit-mask: url("#{$assets-path}icons/list.svg") center / 22px 22px no-repeat;
 }

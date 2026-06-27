@@ -13,7 +13,7 @@
       left: 0;
       width: min(689px, 90vw);
       height: min(482px, 55vh);
-      background-image: url("../../assets/images/decor_1.png");
+      background-image: url("#{$assets-path}images/decor_1.png");
       background-position: top left;
 
       @media (max-width: 600px) {
@@ -27,7 +27,7 @@
       bottom: 41px;
       width: min(315px, 50vw);
       height: min(368px, 45vh);
-      background-image: url("../../assets/images/decor_2.png");
+      background-image: url("#{$assets-path}images/decor_2.png");
       background-position: bottom right;
 
       @media (max-width: 600px) {

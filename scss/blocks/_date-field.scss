@@ -52,10 +52,10 @@
   }
 
   &__clear {
-    background-image: url("../../assets/icons/clear.svg");
+    background-image: url("#{$assets-path}icons/clear.svg");
   }
 
   &__trigger {
-    background-image: url("../../assets/icons/calendar.svg");
+    background-image: url("#{$assets-path}icons/calendar.svg");
   }
 }
